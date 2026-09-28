@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/diffsvg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Diff config/svg key checks for twelve-factor services.",
+  "bin": {
+    "diffsvg": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/diffsvg.git"
+  },
+  "homepage": "https://theworker02.github.io/diffsvg/",
+  "keywords": [
+    "diff",
+    "svg",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
